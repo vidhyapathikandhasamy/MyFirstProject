@@ -16,6 +16,10 @@ struct mylearningApp: App {
     }
 }
 
+protocol MyFirstDelegate {
+    func add()
+}
+
 struct MatchedGeometryExample: View {
     @Namespace private var animationNamespace
     @State private var isExpanded = false
