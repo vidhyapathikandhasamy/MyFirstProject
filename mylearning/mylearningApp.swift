@@ -20,6 +20,7 @@ protocol MyFirstDelegate {
     func add()
     func update()
     func delete()
+    func updateAndDelete()
 }
 
 struct MatchedGeometryExample: View {
