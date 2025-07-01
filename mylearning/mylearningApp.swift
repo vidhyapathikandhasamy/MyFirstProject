@@ -19,6 +19,7 @@ struct mylearningApp: App {
 protocol MyFirstDelegate {
     func add()
     func update()
+    func delete()
 }
 
 struct MatchedGeometryExample: View {
